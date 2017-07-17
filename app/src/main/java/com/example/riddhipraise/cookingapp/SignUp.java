@@ -15,7 +15,7 @@ public class SignUp extends AppCompatActivity {
     }
 
     public void goToMainPage(View view){
-        Intent intent = new Intent(this, MainPage.class);
+        Intent intent = new Intent(this, Home.class);
         startActivity(intent);
     }
 }

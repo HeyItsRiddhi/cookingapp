@@ -10,12 +10,12 @@ import android.widget.MediaController;
 import android.widget.VideoView;
 import android.widget.SearchView;
 
-public class MainPage extends AppCompatActivity {
+public class Home extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_page);
+        setContentView(R.layout.activity_home);
 
         VideoView videoView =(VideoView)findViewById(R.id.videoView);
         MediaController mediaController= new MediaController(this);
