@@ -5,6 +5,9 @@ import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.TextView;
 
 public class Home extends AppCompatActivity {
 
@@ -40,5 +43,19 @@ public class Home extends AppCompatActivity {
         });
 
     }
+    public void editPassword(){
+        EditText newPassword = (EditText) findViewById(R.id.new_password);
+        newPassword.setVisibility(View.VISIBLE);
+
+        TextView newPasswordTextView = (TextView) findViewById(R.id.newPasswordTextView);
+        newPasswordTextView.setVisibility(View.VISIBLE);
+
+        EditText cNewPassword = (EditText) findViewById(R.id.cNewPassword);
+        cNewPassword.setVisibility(View.VISIBLE);
+
+        TextView cNewPasswordTextView = (TextView) findViewById(R.id.cNewPasswordTextView);
+        cNewPasswordTextView.setVisibility(View.VISIBLE);
+    }
+
 
 }

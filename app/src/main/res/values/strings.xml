@@ -1,9 +1,12 @@
 <resources>
-    <string name="app_name">CookingApp</string>
+    <string name="app_name">Cook Lab</string>
     <string name="signup_button">Sign Up</string>
     <string name="username_text">Username</string>
-    <string name="email_text">  Email</string>
-    <string name="password_text">  Password</string>
+    <string name="email_text">Email</string>
+    <string name="password_text">Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
     <string name="title_activity_login">Sign in</string>
 
     <!-- Strings related to login -->
